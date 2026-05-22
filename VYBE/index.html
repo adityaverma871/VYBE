@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>VYBE — From Waste to Worth</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Manrope:wght@300;600;800&family=Poppins:wght@600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="progress" aria-hidden="true"></div>
+
+  <header class="nav glass" id="site-nav">
+    <div class="nav-inner">
+      <a class="brand" href="#hero">
+        <img src="images/logo/IMG-20260507-WA0007.jpg" alt="VYBE logo" class="logo">
+        <span class="visually-hidden">VYBE</span>
+      </a>
+      <nav>
+        <a href="#solutions">Solutions</a>
+        <a href="#how">How it Works</a>
+        <a href="#market">Market</a>
+        <a class="btn ghost" href="mailto:vybebiodegradable@gmail.com">Partner</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" class="hero">
+      <canvas id="particle-canvas" aria-hidden="true"></canvas>
+      <div class="hero-bg" aria-hidden="true" style="background-image:url('images/1000239845.jpg')"></div>
+      <div class="hero-blobs" aria-hidden="true" data-parallax="0.06"></div>
+      <div class="hero-inner">
+        <img src="images/logo/IMG-20260507-WA0007.jpg" alt="VYBE" class="hero-logo">
+        <h1 class="hero-title">Turning Waste Into Worth</h1>
+        <p class="hero-sub">Premium biodegradable packaging built from agricultural and food waste.</p>
+        <div class="hero-ctas">
+          <a class="btn primary" href="#solutions">Explore Solutions</a>
+          <a class="btn outline" href="mailto:vybebiodegradable@gmail.com">Partner With Us</a>
+        </div>
+      </div>
+      <div class="hero-quote">Waste isn't the problem.<br><span>What we choose to do with it is.</span></div>
+    </section>
+
+    <section id="problem" class="section split reveal">
+      <div class="split-left card">
+        <h3>Plastic Pollution</h3>
+        <p>Decades of single-use plastics are choking ecosystems and eroding brand trust.</p>
+      </div>
+      <div class="split-center">
+        <h4>One waste stream can solve another.</h4>
+      </div>
+      <div class="split-right card">
+        <h3>Food & Agricultural Waste</h3>
+        <p>Underutilized biomass represents a massive feedstock for premium material innovation.</p>
+      </div>
+    </section>
+
+    <section id="solutions" class="section solutions">
+      <h2 class="section-title reveal">Our Solutions</h2>
+      <div class="cards">
+        <article class="product card reveal" data-parallax="0.03">
+          <div class="product-media" aria-hidden="true"><img src="images/1000239833.jpg" alt="Cosmetic pack"></div>
+          <h3>Cosmetic Packaging</h3>
+          <p>Elegant, premium finishes that align with high-end skincare brands.</p>
+        </article>
+
+        <article class="product card reveal" data-parallax="0.03">
+          <div class="product-media" aria-hidden="true"><img src="images/1000239842.jpg" alt="Juice bottle"></div>
+          <h3>Juice Bottles</h3>
+          <p>Lightweight, compostable bottles with excellent barrier properties.</p>
+        </article>
+
+        <article class="product card reveal" data-parallax="0.03">
+          <div class="product-media" aria-hidden="true"><img src="images/1000239830.jpg" alt="Coffee cup"></div>
+          <h3>Coffee Cups</h3>
+          <p>Certified compostable cups engineered for café quality service.</p>
+        </article>
+
+        <article class="product card reveal" data-parallax="0.03">
+          <div class="product-media" aria-hidden="true"><img src="images/1000239845.jpg" alt="Packaging boxes"></div>
+          <h3>Premium Packaging Boxes</h3>
+          <p>Brand-forward boxes with luxurious tactile finishes, sustainably derived.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="why" class="section stats reveal">
+      <h2 class="section-title">Why VYBE</h2>
+      <div class="stat-grid">
+        <div class="stat card">
+          <div class="stat-icon">🌿</div>
+          <div class="stat-body">
+            <div class="count" data-target="100">0</div>
+            <div class="label">Compostable</div>
+          </div>
+        </div>
+        <div class="stat card">
+          <div class="stat-icon">♻️</div>
+          <div class="stat-body">
+            <div class="count" data-target="99">0</div>
+            <div class="label">Biodegradable</div>
+          </div>
+        </div>
+        <div class="stat card">
+          <div class="stat-icon">⚙️</div>
+          <div class="stat-body">
+            <div class="count" data-target="0">0</div>
+            <div class="label">Near-zero feedstock cost</div>
+          </div>
+        </div>
+        <div class="stat card">
+          <div class="stat-icon">🏷️</div>
+          <div class="stat-body">
+            <div class="count" data-target="100">0</div>
+            <div class="label">Custom Branding</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="how" class="section timeline reveal">
+      <h2 class="section-title">How it Works</h2>
+      <div class="timeline-wrap">
+        <div class="timeline-line" aria-hidden="true"></div>
+        <div class="timeline">
+          <div class="step">
+            <div class="dot"></div>
+            <h4>Collect Waste</h4>
+          </div>
+          <div class="step">
+            <div class="dot"></div>
+            <h4>Convert Materials</h4>
+          </div>
+          <div class="step">
+            <div class="dot"></div>
+            <h4>Manufacture</h4>
+          </div>
+          <div class="step">
+            <div class="dot"></div>
+            <h4>Supply Brands</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="market" class="section market reveal">
+      <h2 class="section-title">Market & Trust</h2>
+      <p class="lead">Targeting premium brands with an asset-light, scalable B2B model that prioritises sustainable aesthetics.</p>
+      <div class="badges">
+        <span class="badge">Eco Future</span>
+        <span class="badge">Asset-Light</span>
+        <span class="badge">B2B Scalable</span>
+        <span class="badge">Premium Packaging</span>
+      </div>
+    </section>
+    
+
+    <section id="cta" class="section cta reveal">
+      <div class="cta-inner">
+        <h2>Waste Is Not a Problem.<br><span>It Is a Raw Material.</span></h2>
+        <p class="cta-sub">Partner with VYBE to build packaging that elevates your brand and regenerates the planet.</p>
+        <a class="btn cta-btn" href="mailto:vybebiodegradable@gmail.com">Let's Build Sustainably</a>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <img src="images/logo/IMG-20260507-WA0007.jpg" alt="VYBE logo" class="footer-logo">
+          <p class="footer-tag">From Waste to Worth.</p>
+        </div>
+        <div class="footer-meta">
+          <a href="mailto:vybebiodegradable@gmail.com">vybebiodegradable@gmail.com</a>
+          <a href="tel:+919839428105">+91 98394 28105</a>
+        </div>
+      </div>
+      <div class="footer-bottom">© <span id="year"></span> VYBE — All rights reserved.</div>
+    </footer>
+  </main>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
